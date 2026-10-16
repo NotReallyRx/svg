@@ -1,0 +1,58 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml"
+     width="100%" height="100%"
+     viewBox="0 0 460 540"
+     preserveAspectRatio="xMidYMid meet"
+     style="background-color:#090909">
+
+  <rect x="-10000" y="-10000"
+        width="20000" height="20000"
+        fill="#090909"/>
+
+  <foreignObject x="0" y="0" width="460" height="540">
+    <div xmlns="http://www.w3.org/1999/xhtml"
+         style="width:100%;height:100%;background-color:#090909;color:#f2f2f2;font-family:system-ui,sans-serif;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;">
+      <style>
+        * { box-sizing: border-box; }
+        .content { width:100%; max-width:360px; }
+        .label { color:#777; font-size:11px; letter-spacing:3px; }
+        h1 { font-size:36px; letter-spacing:-2px; margin:12px 0 6px; }
+        p { color:#888; font-size:14px; margin:0 0 28px; }
+        a {
+          display:flex; align-items:center; justify-content:space-between;
+          padding:17px; margin:10px 0; background:#111;
+          border:1px solid #292929; border-radius:12px;
+          color:#eee; text-decoration:none;
+        }
+        a:hover { background:#1c1c1c; border-color:#666; }
+        strong { font-size:15px; }
+        small { display:block; margin-top:4px; color:#888; font-size:12px; overflow-wrap:anywhere; }
+        .arrow { color:#777; font-size:21px; }
+        footer { margin-top:27px; color:#555; font-size:10px; letter-spacing:1.5px; }
+      </style>
+      <main class="content">
+        <div class="label">MEDIA ACCESS</div>
+        <h1>Jellyfin.</h1>
+        <p>Choose a server to continue.</p>
+
+        <a href="http://192.168.1.184:8096">
+          <div><strong>Local Server</strong><small>192.168.1.184:8096</small></div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a href="https://jellyfin.notreallrx.xyz">
+          <div><strong>Tailscale Server</strong><small>jellyfin.notreallrx.xyz</small></div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <a href="https://jelly.thecwcincfiles.org">
+          <div><strong>Public Server</strong><small>jelly.thecwcincfiles.org</small></div>
+          <span class="arrow">↗</span>
+        </a>
+
+        <footer>PRIVATE MEDIA · SERVER DIRECTORY</footer>
+      </main>
+    </div>
+  </foreignObject>
+</svg>
