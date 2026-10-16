@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" width="800" height="800">
+  <title>Jellyfin Server Launcher</title>
+  <rect width="800" height="800" fill="#090909"/>
+
+  <g font-family="system-ui, sans-serif" fill="#f2f2f2">
+    <text x="100" y="265" font-size="12" letter-spacing="4" fill="#777">MEDIA ACCESS</text>
+    <text x="96" y="325" font-size="52" font-weight="650" letter-spacing="-3">Jellyfin.</text>
+    <text x="100" y="360" font-size="15" fill="#888">Choose a server to continue.</text>
+
+    <a xlink:href="http://192.168.1.184:8096" target="_blank">
+      <rect x="96" y="395" width="608" height="76" rx="12" fill="#111" stroke="#292929"/>
+      <text x="120" y="427" font-size="15" font-weight="600">Local Server</text>
+      <text x="120" y="449" font-size="12" fill="#888">Local network</text>
+      <text x="675" y="440" font-size="22" fill="#777">↗</text>
+    </a>
+
+    <a xlink:href="https://jellyfin.notreallyrx.xyz" target="_blank">
+      <rect x="96" y="483" width="608" height="76" rx="12" fill="#111" stroke="#292929"/>
+      <text x="120" y="515" font-size="15" font-weight="600">Tailscale Server</text>
+      <text x="120" y="537" font-size="12" fill="#888">Private remote access</text>
+      <text x="675" y="528" font-size="22" fill="#777">↗</text>
+    </a>
+
+    <a xlink:href="https://jelly.thecwcincfiles.org" target="_blank">
+      <rect x="96" y="571" width="608" height="76" rx="12" fill="#111" stroke="#292929"/>
+      <text x="120" y="603" font-size="15" font-weight="600">Public Server</text>
+      <text x="120" y="625" font-size="12" fill="#888">Public access</text>
+      <text x="675" y="616" font-size="22" fill="#777">↗</text>
+    </a>
+
+    <text x="100" y="685" font-size="10" letter-spacing="2" fill="#555">PRIVATE MEDIA · SERVER DIRECTORY</text>
+  </g>
+</svg>
